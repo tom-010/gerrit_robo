@@ -9,12 +9,13 @@ README = (HERE / "README.md").read_text()
 setup(
     name='gerrit_robo',
     url='https://github.com/tom-010/gerrit_robo.git',
-    version='0.0.1',
+    version='0.0.2',
     author='Thomas Deniffel',
     author_email='tdeniffel@gmail.com',
     packages=['gerrit_robo'], # find_packages(),
     license='Apache2',
     install_requires=[
+        'requests'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
